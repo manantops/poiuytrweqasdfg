@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent {
+        height: 100vh;
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        clip-path: polygon(0 0, 100% 0%, 100% 49%, 47% 70%, 0% 50%);
+    }
+
+    .one {
+        background-color: rgba(0, 0, 0, 0.616);
+        height: 930px;
+        clip-path: polygon(0 0, 100% 0%, 100% 49%, 47% 70%, 0% 50%);
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <img src="Put Your Image.png" alt="" height="930px" width="100%">
+        <div class="one">
+            <h1>I AM HEADING </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, dicta.</p>
+            <button>SUBMIT</button>
+        </div>
+    </div>
+</body>
+
+</html>
